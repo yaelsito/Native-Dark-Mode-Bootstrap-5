@@ -1,0 +1,23 @@
+/*
+Project to view how to implement a Native Dark Mode with Bootstrap 5.3
+WRITED BY YAEL MASSIEU.
+Telegram: @sterytools
+Insta: @is.leay
+Portfolio: https://yael.pages.dev/
+Github: https://github.com/yaelsito/
+*/
+.theme-icon-light {
+  display: inline-block;
+}
+
+.theme-icon-dark {
+  display: none;
+}
+
+#toggle-theme:checked + .form-check-label .theme-icon-light {
+  display: none;
+}
+
+#toggle-theme:checked + .form-check-label .theme-icon-dark {
+  display: inline-block;
+}
